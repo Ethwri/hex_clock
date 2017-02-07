@@ -1,0 +1,14 @@
+body{
+	margin-top: 200px;
+	color: #efefef;
+	text-align: center;
+}
+
+#clock {
+	font-weight: 300;
+	font-size: 10em;
+}
+
+#hex-code {
+	font-size: 1.5em;
+}
