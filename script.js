@@ -6,7 +6,7 @@ function hexClock() {
 	var hours = time.getHours();
 	hours = hours % 12; // convert from 24 to 12
 	hours = hours ? hours : 12; // make 00 = 12
-	hours.toString();
+	hours = hours.toString();
 	var minutes = time.getMinutes().toString();
 	var seconds = time.getSeconds().toString();
 
