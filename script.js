@@ -3,7 +3,10 @@ var hexColor = document.getElementById('hex-code');
 
 function hexClock() {
 	var time = new Date();
-	var hours = (time.getHours()% 12).toString();
+	var hours = time.getHours();
+	hours = hours % 12; // convert from 24 to 12
+	hours = hours ? hours : 12; // make 00 = 12
+	hours.toString();
 	var minutes = time.getMinutes().toString();
 	var seconds = time.getSeconds().toString();
 
