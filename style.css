@@ -1,12 +1,12 @@
 body{
-	margin-top: 200px;
+	margin-top: 1.5rem;
 	color: #efefef;
 	text-align: center;
 }
 
 #clock {
 	font-weight: 300;
-	font-size: 10em;
+	font-size: 8em;
 }
 
 #hex-code {
